@@ -215,29 +215,82 @@ export default function PortfolioWebsite() {
           </p>
         </div>
       </div>
+{/* BMES Conference */}
+      <div className="bg-slate-50 rounded-3xl overflow-hidden shadow-sm">
+        <Image
+          src="/BMES.jpg"
+          alt="BMES Conference Presentation"
+          width={700}
+          height={500}
+          className="w-full h-[350px] object-cover"
+        />
 
+        <div className="p-6">
+          <h3 className="text-4xl font-semibold mb-2">
+            Biomedical Engineering Society (BMES) Conference
+          </h3>
+
+          <p className="text-base text-slate-700 leading-relaxed">
+            Presented a poster on how NanoSilk modulates communication between
+      fibroblasts and immune cells in a preclinical model of pressure injury
+      at the 2026 BMES Annual Meeting in Orlando, Florida.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
+
       Publications, Abstracts & Awards
     </h2>
 
     <div className="space-y-6">
 
       {/* Publications */}
+      
       <div className="rounded-3xl bg-slate-50 p-6 shadow-sm">
         <h3 className="text-2xl font-semibold mb-4">
           Publications
         </h3>
 
         <div className="space-y-5 text-slate-700">
+          <div>
+    <p className="font-semibold">
+    CNP-miR146a Promotes NRF2-Related Ferroptosis-Protective Myeloid
+    Programs and Immune–Vascular Regeneration in Diabetic Wounds
+  </p>
+
+  <p className="text-sm mt-1 text-slate-500">
+    Kafali M, et al. · First author · <em>Pharmaceutics</em>, 2026, 18(9), 1116
+  </p>
+
+  <div className="mt-2 flex flex-wrap gap-x-4 gap-y-2">
+    <a
+      href="https://doi.org/10.3390/pharmaceutics18091116"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-600 hover:underline"
+    >
+      View Publication
+    </a>
+
+    <a
+      href="https://atlas.melisakafali.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-600 hover:underline"
+    >
+      View Interactive Research Atlas
+    </a>
+  </div>
+</div>
 
           <div>
             <p className="font-semibold">
-              Highly Cited Publication
+              Antibacterial Properties and Osteoblast Interactions of Microfluidically Synthesized Chitosan – SPION Composite Nanoparticles
             </p>
 
-            <p>
+            <p className="text-sm mt-1 text-slate-500">
               Kafalı M, et al. Development and characterization of advanced biomaterial systems for biomedical applications.
             </p>
 
@@ -250,13 +303,17 @@ export default function PortfolioWebsite() {
               View Publication
             </a>
 
-            <p className="text-sm mt-1 text-slate-500">
+            <p className="text-sm mt-1 text-amber-800">
               Received Most Cited Article certification.
             </p>
           </div>
 
           <div>
-            <p>
+            <p className="font-semibold">
+              Multifunctional POSS-based Nanoparticles Functionalized with Silver,
+    SPIONs, and Rhamnolipid for Antibacterial Applications
+            </p>
+            <p className="text-sm mt-1 text-slate-500">
               Kafalı M, et al. Advanced biomaterials and translational regenerative medicine applications.
             </p>
 
@@ -271,7 +328,10 @@ export default function PortfolioWebsite() {
           </div>
 
           <div>
-            <p>
+            <p className="font-semibold">
+              Structural, Cytocompatibility and Antibacterial Evaluation of DMAHDM-Modified Dental Resin Matrices for Bulk-Fill Applications
+            </p>
+            <p className="text-sm mt-1 text-slate-500">
               Kafalı M, et al. Biomaterial engineering and polymer applications for biomedical systems.
             </p>
 
@@ -295,11 +355,34 @@ export default function PortfolioWebsite() {
         </h3>
 
         <div className="space-y-5 text-slate-700">
+          <div>
+  <p className="font-semibold">
+    Preventive Silk Fibroin Reprograms Macrophage Responses to Protect
+    Against Pressure Injury
+  </p>
+  <p className="text-sm mt-1 text-slate-500">
+    Accepted for oral presentation · 22nd Annual Academic Surgical Congress
+    · February 9–11, 2027 · Washington, DC
+  </p>
+</div>
+<div>
+  <p className="font-semibold">
+    Nanosilk Enhances Fibroblast–Immune Cell Communication Through Adhesion-Mediated Signaling to Promote Regenerative Responses Following Pressure-Induced Injury
+  </p>
+  <p className="text-sm mt-1 text-slate-500">
+    Accepted for poster presentation · Biomedical Engineering Society (BMES) 2026 Annual Meeting
+    · October 21–24, 2026 · Orlando, FL
+  </p>
+</div>
 
           <div>
-            <p>
-              Wound Healing Society (WHS) Abstract Presentation
+            <p className="font-semibold">
+              Silk Fibroin-Based Gel Reprograms Fibroblast Toward A Regenerative Phenotype to Prevent Pressure Ulcers
             </p>
+            <p className="text-sm mt-1 text-slate-500">
+    Accepted for oral presentation · WHS 2026 Meeting
+    · April 8–11, 2026 · Charlotte, NC
+  </p>
 
             <a
               href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1GpZgRQAAAAJ&citation_for_view=1GpZgRQAAAAJ:zYLM7Y9cAGgC"
@@ -312,8 +395,12 @@ export default function PortfolioWebsite() {
           </div>
 
           <div>
-            <p>
-              Wound Healing Society (WHS) Scientific Abstract
+            <p className="font-semibold">
+              CXCR4 Agonist UCUF-965 Restores Angiogenic and Immune Function Through Malat-1 Driven Regenerative Pathways in Diabetic Wounds
+            </p>
+            <p className="text-sm mt-1 text-slate-500">
+              Accepted for oral presentation · WHS 2026 Meeting
+              · April 8–11, 2026 · Charlotte, NC
             </p>
 
             <a
